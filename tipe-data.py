@@ -9,6 +9,13 @@ aku padamu horeg interage
 dashmoe
 ''' # multipleline
 
+#boolean
+berhasil = True
+if berhasil :
+    berhasil = False
+    print("behasil state:", berhasil)
+berhasil = True
+print("berhasil state: ", berhasil)
 
 print(type(angka))
 print(type(bulat))
@@ -35,6 +42,9 @@ print("float to integer :", floattointeger)
 
 intergertocomplex = complex(datainterger)
 print("integert to complex :", intergertocomplex)
+
+#String to Boolean
+print(bool("hello world"))
 
 
 print("="*30)
