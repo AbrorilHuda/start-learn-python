@@ -1,7 +1,6 @@
 # function
 def my_func():
-    print("my function")
-
+     print("my function")
 # memanggil func
 my_func()
 
@@ -41,6 +40,6 @@ func = lambda a:a + 2
 def pangkat(n):
     return lambda a:a ** n
 
-number = pangkat(3)
+number = pangkat(4)
 
 print(number(3))
